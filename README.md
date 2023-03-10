@@ -2,7 +2,7 @@
 
 Example:
 .github/workflows/Sync-to-tencent-cos.yml
-`name: Sync-to-tencent-cos
+```name: Sync-to-tencent-cos
 on:
   push:
     branches:
@@ -23,9 +23,9 @@ jobs:
           echo "Delete old files..."
           curl https://raw.githubusercontent.com/ljxi/Sync-to-tencent-cos/main/Delete-old-files.py -o ./Delete-old-files.py
           python Delete-old-files.py
-          echo "Sync to tencent cos done!"`
+          echo "Sync to tencent cos done!"```
           
 Secrets:
-BUCKET
-SECRET_ID
-SECRET_KEY
+`BUCKET`
+`SECRET_ID`
+`SECRET_KEY`
