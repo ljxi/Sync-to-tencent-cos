@@ -14,3 +14,4 @@ for i in Cos_list:
 for i in to_delete:
     print('Delete: %s'%i)
     cmd('coscmd delete -f %s'%i)
+print("Delete old files done!")
