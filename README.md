@@ -1,6 +1,6 @@
 # Sync-to-tencent-cos
 
-Example:
+Github actions example:
 .github/workflows/Sync-to-tencent-cos.yml
 ```
 on:
